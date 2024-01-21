@@ -1,0 +1,423 @@
+@media screen and (min-width: 360px) {
+
+    body {
+
+        background-color: rgba(0, 0, 0, 0.41);
+        width: 100%;
+        height: 1000px;
+        display: grid;
+        grid-template-columns: repeat(22, 1fr);
+        grid-template-rows: 80px 1fr 100px;
+    }
+
+    body .Header {
+        grid-column: 1/23;
+        grid-row: 1 / 1;
+        background-color: white;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+
+    }
+
+    body .Header {
+        position: relative;
+    }
+
+    body .Header ul {
+        position: absolute;
+        width: 200px;
+        height: 450px;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        background-color: white;
+        flex-direction: column;
+        top: 80px;
+        right: 0px;
+        border-radius: 0px 0px 0px 30px;
+        /* filter: drop-shadow(-4px 2px 7px black); */
+        animation: vew 0.2s;
+    }
+
+    body .Header .lests {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        width: 60px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+
+    /* body .section .min_one .content .perant_img {
+        width: 320px !important;
+        height: 340px !important;
+    } */
+
+    body .section .min_one .content {
+        justify-content: center;
+        padding-top: 200px;
+    }
+
+
+    body .section .min_one .content .cont {
+        grid-column: 1/23;
+    }
+
+    body .section .min_one .content .perant_img {
+        grid-column: 1/23;
+        margin-bottom: 40px;
+    }
+
+    body .section .min_two .get_to .child {
+        width: 100%
+    }
+
+    body .section .min_one .content .cont .per_btn {
+        width: 100%;
+        min-height: 130px;
+    }
+
+    body .section .min_two .get_to {
+        gap: 25px;
+    }
+
+    body .section .min_two .perant_pag .content_swaps .cards {
+        width: calc(100% / 1) !important;
+    }
+
+    body .section .min_two .perant_pag .bt_next,
+    body .section .min_two .perant_pag .bt_back {
+        top: calc(50% - 25px);
+    }
+
+
+    body .section .min_two .perant_pag .content_swaps {
+        width: 100%;
+        /* background-color: red; */
+        min-height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        gap: 30px;
+        position: relative;
+    }
+
+    body .section .min_two .perant_pag .bt_next {
+        right: -15px;
+    }
+
+    body .section .min_two .perant_pag .bt_back {
+        transform: rotate(180deg);
+        left: -15px;
+    }
+
+    .A_Plas1 {
+        left: 105% !important;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .A_Plas2 {
+        left: 105% !important;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .A {
+        left: 0% !important;
+        opacity: 1 !important;
+        z-index: 2;
+    }
+
+
+    body .section .create-nft .continar .chilld {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        text-align: center;
+    }
+
+    body .section .create-nft .heedars {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    body .section .create-nft .heedars a {
+        margin: 20px 0px;
+    }
+}
+
+
+@media screen and (min-width:500px) {
+
+    /* body .section .min_one .content .perant_img {
+        width: 450px !important;
+        height: 450px !important;
+    } */
+
+    body .section .min_one .content .cont {
+        grid-column: 3/21;
+    }
+
+    body .section .min_one .content .perant_img {
+        grid-column: 3/21;
+    }
+
+    body .section .min_one .content .perant_img .con-img {
+        min-height: 445px;
+    }
+
+    body .section .min_two .get_to .child {
+        width: 47%;
+    }
+
+    body .section .min_one .content .cont .per_btn {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    body .section .min_two .get_to {
+        gap: 20px 10px;
+    }
+
+    body .section .min_two .perant_pag .bt_next,
+    body .section .min_two .perant_pag .bt_back {
+        top: calc(50% - 25px);
+    }
+
+    body .section .min_two .perant_pag .content_swaps {
+        width: 100%;
+        /* background-color: red; */
+        min-height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        gap: 30px;
+        position: relative;
+    }
+
+    body .section .min_two .perant_pag .bt_next {
+        right: -25px;
+    }
+
+    body .section .min_two .perant_pag .bt_back {
+        transform: rotate(180deg);
+        left: -25px;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    body .Header {
+        position: relative;
+    }
+
+    body .Header ul {
+        position: absolute;
+        width: 200px;
+        height: 450px;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        background-color: white;
+        flex-direction: column;
+        top: 100px;
+        right: 0px;
+        border-radius: 15px;
+        filter: drop-shadow(0px 0px 10px black);
+
+    }
+
+
+
+    body .Header .lests {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        width: 60px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+
+    body .section .min_one .content .perant_img .con-img {
+        min-height: 580px;
+    }
+
+    body .section .min_two .get_to .child {
+        width: calc(100% / 3.2);
+    }
+
+    body .section .min_one .content .cont .per_btn {
+        width: 70%;
+    }
+
+
+    body .section .min_one .content {
+        padding-top: 270px;
+    }
+
+    /* .A {
+        left: calc(0%) !important;
+    }
+
+    .A_Plas1 {
+        left: calc(52.4%) !important;
+    }
+
+    .A_Plas2 {
+        left: 104.8% !important;
+    }
+
+    .nightiv {
+        left: 104.8% !important;
+    } */
+
+
+
+    .A_Plas1 {
+        left: calc(52.4%) !important;
+        opacity: 1 !important;
+        z-index: unset;
+    }
+
+    .A_Plas2 {
+        left: 104.8% !important;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .A {
+        left: 0% !important;
+        opacity: 1 !important;
+        z-index: 1;
+    }
+
+    body .section .min_two .perant_pag .content_swaps .cards {
+        width: calc(100% / 2.1) !important;
+    }
+}
+
+
+@media screen and (min-width: 970px) {
+    body {
+
+        background-color: rgba(0, 0, 0, 0.41);
+        width: 100%;
+        height: 1000px;
+        display: grid;
+        grid-template-columns: repeat(35, 1fr);
+        grid-template-rows: 30px 95px 1fr 100px;
+    }
+
+
+    body .Header {
+        grid-column: 3/34;
+        grid-row: 2 / 2;
+        background-color: white;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+
+    }
+
+    body .Header {
+        position: unset;
+    }
+
+    body .Header ul {
+        position: unset;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        color: black;
+        filter: none;
+    }
+
+    body .Header .lests {
+        display: none;
+    }
+
+    body .section .min_one .content {
+        justify-content: space-around
+    }
+
+    body .section .min_one .content .cont {
+        grid-column: 1/12;
+    }
+
+    body .section .min_one .content .perant_img {
+        grid-column: 14/23;
+        margin-bottom: 0px;
+    }
+
+    body .section .min_one .content .perant_img .con-img {
+        min-height: 400px;
+    }
+
+    body .section .min_two .get_to .child {
+        width: calc(100% / 7);
+    }
+
+    body .section .min_one .content .cont .per_btn {
+        width: 80%;
+    }
+
+    body .section .min_two .perant_pag .content_swaps .cards {
+        width: calc(100% / 3.2) !important;
+    }
+
+    .A {
+        left: 0% !important
+    }
+
+    .A_Plas1 {
+        left: calc(34.4%) !important;
+    }
+
+    .A_Plas2 {
+        left: calc(34.4% + 34.4%) !important;
+        opacity: 1 !important;
+    }
+
+    .neg {
+        left: 103.2% !important;
+    }
+
+
+    body .section .create-nft .continar .chilld {
+        width: calc(100% / 3);
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        position: relative;
+        text-align: left;
+    }
+
+    body .section .create-nft .heedars {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
